@@ -26,7 +26,7 @@ int main() {
 	sort(vec.begin(), vec.end(), compareMarks);
 
 	cout << "The names and marks of the first 3 best student are: " << endl;
-	for(int i = 0; i < 3; i++) {
+	for(int i = 0; i < min(n,3); i++) {
 	    cout << vec.at(i).first << " " << vec.at(i).second << endl;
 	}
 
