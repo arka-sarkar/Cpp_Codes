@@ -3,7 +3,6 @@
 #include<cmath>
 #include<cctype>
 #include<sstream>
-#include<algorithm>
 using namespace std;
 
 string formatNumber(double value) {
