@@ -1,4 +1,4 @@
-#include <cctype>
+#include<cctype>
 #include<iostream>
 #include<regex>
 #include<sstream>
